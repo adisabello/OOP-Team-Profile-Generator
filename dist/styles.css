@@ -1,0 +1,41 @@
+*{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background-color: #202020;
+    color: azure;
+    text-align: center;
+    padding: 10px;
+    height: 50px;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    min-height: calc(100% - 90px);
+}
+
+.manager h2, .engineers h2, .interns h2{
+    padding: 10px;
+    text-align: center;
+    background-color: #202020;
+    color: azure;
+}
+p{
+    line-height: 30px;
+}
+a{
+    color: #0d52bd
+}
+td, th{
+    padding: 7px;
+}
